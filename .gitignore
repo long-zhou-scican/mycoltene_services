@@ -1,0 +1,62 @@
+# IDE files
+.idea
+
+# Compiled files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+*.terraform.lock.hcl
+
+# logs
+*.log
+
+# Directories
+.terraform/
+.vagrant/
+
+# SSH Keys
+*.pem
+
+# Backup files
+*.bak
+
+# Ignored Terraform files
+*gitignore*.tf
+
+# Ignore Mac .DS_Store files
+.DS_Store
+
+# Ignored vscode files
+.vscode/
+
+# pyc
+*.pyc
+
+# .egg-info
+*.egg-info/*
+
+# Working folder
+.config/
+Pipfile.lock
+
+# Ignore files with nogit
+*.nogit*
+
+# Ignore all node_modules
+**/node_modules
+node_modules
+# Ignore all webpack builds
+**/.webpack
+
+# Ignore all serverless builds
+**/.serverless
+
+# code coverage reports
+**/coverage
+**/test-report.xml
+**/junit.xml
+
+# for local tests
+andrii.yml
+json_inputs
+*.sh

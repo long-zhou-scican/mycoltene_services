@@ -1,0 +1,217 @@
+{
+    "resource": "/hello",
+    "path": "/hello",
+    "httpMethod": "GET",
+    "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "cache-control": "max-age=0",
+        "CloudFront-Forwarded-Proto": "https",
+        "CloudFront-Is-Desktop-Viewer": "true",
+        "CloudFront-Is-Mobile-Viewer": "false",
+        "CloudFront-Is-SmartTV-Viewer": "false",
+        "CloudFront-Is-Tablet-Viewer": "false",
+        "CloudFront-Viewer-ASN": "577",
+        "CloudFront-Viewer-Country": "CA",
+        "Host": "webservices-long.sandbox.scicanapi.com",
+        "sec-ch-ua": "\".Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"103\", \"Chromium\";v=\"103\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "none",
+        "sec-fetch-user": "?1",
+        "upgrade-insecure-requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+        "Via": "2.0 67dd4d73b80aece69a8e725c6d612b6e.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Id": "1G4dRoQGkrBPKs64FHjaYohcfoizzB5egw4pF5-OpZfiZ-UD1-QE8w==",
+        "X-Amzn-Trace-Id": "Root=1-62ed6fe1-2e824c361b1850f37cabe256",
+        "X-Forwarded-For": "65.92.112.236, 15.158.17.100",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+        "Accept": [
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+        ],
+        "Accept-Encoding": [
+            "gzip, deflate, br"
+        ],
+        "Accept-Language": [
+            "en-US,en;q=0.9"
+        ],
+        "cache-control": [
+            "max-age=0"
+        ],
+        "CloudFront-Forwarded-Proto": [
+            "https"
+        ],
+        "CloudFront-Is-Desktop-Viewer": [
+            "true"
+        ],
+        "CloudFront-Is-Mobile-Viewer": [
+            "false"
+        ],
+        "CloudFront-Is-SmartTV-Viewer": [
+            "false"
+        ],
+        "CloudFront-Is-Tablet-Viewer": [
+            "false"
+        ],
+        "CloudFront-Viewer-ASN": [
+            "577"
+        ],
+        "CloudFront-Viewer-Country": [
+            "CA"
+        ],
+        "Host": [
+            "webservices-long.sandbox.scicanapi.com"
+        ],
+        "sec-ch-ua": [
+            "\".Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"103\", \"Chromium\";v=\"103\""
+        ],
+        "sec-ch-ua-mobile": [
+            "?0"
+        ],
+        "sec-ch-ua-platform": [
+            "\"macOS\""
+        ],
+        "sec-fetch-dest": [
+            "document"
+        ],
+        "sec-fetch-mode": [
+            "navigate"
+        ],
+        "sec-fetch-site": [
+            "none"
+        ],
+        "sec-fetch-user": [
+            "?1"
+        ],
+        "upgrade-insecure-requests": [
+            "1"
+        ],
+        "User-Agent": [
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+        ],
+        "Via": [
+            "2.0 67dd4d73b80aece69a8e725c6d612b6e.cloudfront.net (CloudFront)"
+        ],
+        "X-Amz-Cf-Id": [
+            "1G4dRoQGkrBPKs64FHjaYohcfoizzB5egw4pF5-OpZfiZ-UD1-QE8w=="
+        ],
+        "X-Amzn-Trace-Id": [
+            "Root=1-62ed6fe1-2e824c361b1850f37cabe256"
+        ],
+        "X-Forwarded-For": [
+            "65.92.112.236, 15.158.17.100"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ]
+    },
+    "pathParameters": {
+        "subscriptionId": 157
+    },
+    "multiValueQueryStringParameters": {
+        "policy": [
+            "16",
+            "51"
+        ],
+        "isEnabled": [
+            "true"
+        ]
+    },
+    "stageVariables": null,
+    "requestContext": {
+        "resourceId": "ht3jkv",
+        "authorizer": {
+            "claims": {
+                "sub": "9a833df6-3d5e-441a-81a9-7c03d73112e5",
+                "iss": "https://cognito-idp.us-east-1.amazonaws.com/us-east-1_pDeaIeStF",
+                "version": "2",
+                "client_id": "5k5395vocv57s4gp6tfopjsv5a",
+                "origin_jti": "07571315-a7de-4303-b751-48790a3da7c4",
+                "event_id": "bca55994-ac19-4635-9c73-2382171ce537",
+                "token_use": "access",
+                "scope": "openid admin/all email",
+                "auth_time": "1677697144",
+                "exp": "Thu Mar 02 18:59:04 UTC 2023",
+                "iat": "Wed Mar 01 18:59:04 UTC 2023",
+                "jti": "706cd655-8789-4246-8338-ad845713d0d1",
+                "username": "dragon2934"
+            }
+        },
+        "resourcePath": "/hello",
+        "httpMethod": "GET",
+        "extendedRequestId": "WZ5rQE9_oAMFRHA=",
+        "requestTime": "05/Aug/2022:19:30:41 +0000",
+        "path": "/hello",
+        "accountId": "366229877060",
+        "protocol": "HTTP/1.1",
+        "stage": "dev",
+        "domainPrefix": "webservices-dev",
+        "requestTimeEpoch": 1659727841465,
+        "requestId": "0f38e909-7f16-4aa3-87d1-e0789d387058",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": null,
+            "cognitoIdentityId": null,
+            "caller": null,
+            "sourceIp": "65.92.112.236",
+            "principalOrgId": null,
+            "accessKey": null,
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": null,
+            "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+            "user": null
+        },
+        "domainName": "webservices-dev.scicanapi.com",
+        "apiId": "olflg3ov1c"
+    },
+    "body": null,
+    "isBase64Encoded": false,
+    "ctx": {
+        "user": {
+            "uuid": "dd5a575b-329e-4443-ba32-a3f1b35b401e",
+            "permissions": [
+                "page:dashboard",
+                "page:documents",
+                "page:enhanced_event_log",
+                "page:firmware",
+                "page:monitoring",
+                "page:page_not_found",
+                "page:product_firmware",
+                "page:product_notes",
+                "page:products",
+                "page:register_product",
+                "page:remote_access_session",
+                "page:report_problem",
+                "page:report_problem_form",
+                "page:reports",
+                "page:tracking",
+                "page:troubleshoot",
+                "page:videos",
+                "page:warranty",
+                "module:administration",
+                "page:store",
+                "page:accounts",
+                "page:store-admin",
+                "page:system-events",
+                "page:notifications",
+                "page:business-rules",
+                "page:services",
+                "page:policy",
+                "page:product-notification",
+                "page:profile_settings",
+                "page:user-product",
+                "page:time-frame"
+            ]
+        }
+    }
+}
